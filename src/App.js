@@ -1,9 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
+
+import React from 'react';
+import Navbar from './Navbar';
+import Meme from './Meme';
 
 function App() {
   return (
-    <h1>Hello world!</h1>
+    <>
+      <Navbar />
+      <Meme />
+    </>
   );
 }
 
