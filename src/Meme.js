@@ -7,6 +7,7 @@ export default function Meme() {
         randomImage: "http://i.imgflip.com/1bij.jpg"
     })
     
+    //setting states
     const [allMemes, setAllMemes] = React.useState([])
 
 
